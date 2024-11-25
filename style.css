@@ -1,38 +1,43 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family:"Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f4f4f4;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
 }
 
 .container {
     text-align: center;
-    background-color: white;
+    background-color: rgb(24, 193, 67);
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 button {
-    padding: 10px 20px;
+    padding: 10px 30px;
     font-size: 16px;
-    background-color: #007BFF;
-    color: white;
+    background-color: #e01717;
+    color: rgb(25, 18, 18);
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #ddc514;
 }
 
 #restaurantDisplay {
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
 }
+
+  
